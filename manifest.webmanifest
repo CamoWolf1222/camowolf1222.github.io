@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Local Music iPod",
-  "short_name": "Music iPod",
-  "description": "A local music library in a classic iPod-style player.",
+  "name": "wPod",
+  "short_name": "wPod",
+  "description": "For your listening experience, from Gulielmus",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
