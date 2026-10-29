@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">WPod record</title>
+  <desc id="desc">A black vinyl record with a blue center label and a white W.</desc>
+  <defs>
+    <radialGradient id="vinyl" cx="35%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#33363b"/>
+      <stop offset=".48" stop-color="#111317"/>
+      <stop offset="1" stop-color="#030405"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".38"/>
+      <stop offset=".35" stop-color="#fff" stop-opacity=".02"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="239" fill="#090a0c"/>
+  <circle cx="256" cy="256" r="230" fill="url(#vinyl)" stroke="#4a4d52" stroke-width="3"/>
+  <g fill="none" stroke="#74777c" opacity=".28">
+    <circle cx="256" cy="256" r="216" stroke-width="1.5"/>
+    <circle cx="256" cy="256" r="207"/>
+    <circle cx="256" cy="256" r="198" stroke-width="1.5"/>
+    <circle cx="256" cy="256" r="188"/>
+    <circle cx="256" cy="256" r="178" stroke-width="1.5"/>
+    <circle cx="256" cy="256" r="168"/>
+    <circle cx="256" cy="256" r="158" stroke-width="1.5"/>
+  </g>
+  <circle cx="256" cy="256" r="230" fill="url(#shine)"/>
+  <circle cx="256" cy="256" r="103" fill="#1674df" stroke="#4c9bff" stroke-width="5"/>
+  <circle cx="256" cy="256" r="91" fill="none" stroke="#b7d8ff" stroke-width="2.5" opacity=".9"/>
+  <path d="M190 213 L214 213 L231 272 L249 224 Q252 216 259 216 Q266 216 269 224 L287 272 L304 213 L328 213 L299 300 Q296 309 287 309 L280 309 Q272 309 269 301 L256 267 L243 301 Q240 309 232 309 L225 309 Q216 309 213 300 Z" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+  <circle cx="256" cy="256" r="8" fill="#101216" stroke="#dcecff" stroke-width="2"/>
+</svg>
